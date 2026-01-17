@@ -1,4 +1,5 @@
-##Face Emotions with YOLOv11
+## Face Emotions with YOLOv11
+
 This project is a computer vision–based emotion detection system built using the YOLOv11 model.
 The model is trained to classify six basic human emotions based on Paul Ekman’s theory of emotions, which are:
 
