@@ -46,6 +46,7 @@ Note: Accuracy may vary depending on input quality and environment.
 | Deployment (Optional)   | Webcam / Image Input   | Real-time and static image emotion detection                    |
 
 ## 📂 Project Structure
+
 FaceEmotions-YOLOv11/
 │
 ├── train/                     # Training dataset (images & labels)
@@ -63,4 +64,5 @@ FaceEmotions-YOLOv11/
 ├── last.pt                    # Trained YOLOv11 model weights
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Documentation
+
 
