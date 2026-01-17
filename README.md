@@ -15,6 +15,6 @@ The model is trained to classify six basic human emotions based on Paul Ekman’
 
 😲 Surprise
 
-The system detects faces in real-time or from images and classifies the detected facial expression into one of these emotion categories.
+The system detects faces in real-time or from images and classifies the detected facial expression into one of these emotion categories. Through model optimization and dataset refinement, the system achieves up to 98% emotion recognition accuracy on the validation dataset, demonstrating strong performance for real-time applications and research purposes.
 
-Through model optimization and dataset refinement, the system achieves up to 98% emotion recognition accuracy on the validation dataset, demonstrating strong performance for real-time applications and research purposes.
+
