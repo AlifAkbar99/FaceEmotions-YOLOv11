@@ -45,7 +45,7 @@ Note: Accuracy may vary depending on input quality and environment.
 | Dependency Management   | pip & requirements.txt | Managing Python dependencies                                    |
 | Deployment (Optional)   | Webcam / Image Input   | Real-time and static image emotion detection                    |
 
-### 📂 Project Structure
+## 📂 Project Structure
 FaceEmotions-YOLOv11/
 │
 ├── train/                     # Training dataset (images & labels)
