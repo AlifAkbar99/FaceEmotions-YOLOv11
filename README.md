@@ -65,16 +65,21 @@ FaceEmotions-YOLOv11/
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Documentation
 ```
-### 🚀 How to Run the Project
+## 🚀 How to Run the Project
 ### 1️⃣ Clone the repository
+```
 git clone https://github.com/AlifAkbar99/FaceEmotions-YOLOv11.git
 cd FaceEmotions-YOLOv11
-
+```
 ### 2️⃣ Install dependencies
+```
 pip install -r requirements.txt
-
+```
 ### 3️⃣ Run emotion detection
+```
 python yolo_emotions.py/
-
+```
 ## 📂 Dataset
+```
 https://www.kaggle.com/datasets/msambare/fer2013
+```
