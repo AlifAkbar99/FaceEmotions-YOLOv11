@@ -17,19 +17,18 @@ The model is trained to classify six basic human emotions based on Paul Ekman’
 
 The system detects faces in real-time or from images and classifies the detected facial expression into one of these emotion categories. Through model optimization and dataset refinement, the system achieves up to 98% emotion recognition accuracy on the validation dataset, demonstrating strong performance for real-time applications and research purposes.
 
-🧠 Model Performance
+### 🧠 Model Performance
 
 The YOLOv11 model was trained and evaluated on a labeled facial expression dataset.
 After dataset cleaning and model tuning, the system achieved:
 
-Accuracy: up to 98% on the validation dataset
-
-Fast inference speed suitable for real-time detection
-
-Stable emotion classification across different lighting conditions
+1. Accuracy: up to 98% on the validation dataset
+2. Fast inference speed suitable for real-time detection
+3. Stable emotion classification across different lighting conditions
 
 Note: Accuracy may vary depending on input quality and environment.
 
+### ⚙️ Technology Stack
 | Category                | Technology / Library   | Description                                                     |
 | ----------------------- | ---------------------- | --------------------------------------------------------------- |
 | Programming Language    | Python 3.x             | Main language used for model training and inference             |
@@ -45,4 +44,23 @@ Note: Accuracy may vary depending on input quality and environment.
 | Version Control         | Git & GitHub           | Source code management and collaboration                        |
 | Dependency Management   | pip & requirements.txt | Managing Python dependencies                                    |
 | Deployment (Optional)   | Webcam / Image Input   | Real-time and static image emotion detection                    |
+
+### 📂 Project Structure
+FaceEmotions-YOLOv11/
+│
+├── train/                     # Training dataset (images & labels)
+│   ├── angry/
+│   ├── disgust/
+│   ├── fear/
+│   ├── happy/
+│   ├── sad/
+│   └── surprise/
+│
+├── runs/                      # YOLO training & validation results
+│   └── detect/
+│
+├── yolo_emotions.py           # Main script for emotion detection
+├── last.pt                    # Trained YOLOv11 model weights
+├── requirements.txt           # Project dependencies
+└── README.md                  # Documentation
 
