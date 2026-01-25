@@ -3,7 +3,7 @@ import numpy as np
 from ultralytics import YOLO
 
 # Load YOLO classification model
-model = YOLO(r'D:\machine learning\emotions\last.pt')
+model = YOLO(r'D:\machine learning\emotions\models\last.pt')
 
 # Webcam
 video = cv2.VideoCapture(0)
